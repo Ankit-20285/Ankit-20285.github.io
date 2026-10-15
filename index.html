@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ankit Singh | Aspiring AI/ML Engineer</title>
+<meta name="description" content="Ankit Singh, a CSE student in Hyderabad building AI/ML, computer vision and backend projects. Explore projects, LeetCode practice and resume.">
+<meta property="og:title" content="Ankit Singh | Aspiring AI/ML Engineer">
+<meta property="og:description" content="I turn ideas into intelligent applications. CSE student exploring AI/ML, computer vision and software engineering.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0b0d17">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="Ankit Singh, home">AS<span>.</span></a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="links" aria-label="Toggle menu"><i></i><i></i></button>
+  <nav id="links" class="links" aria-label="Main">
+    <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#dsa">DSA</a><a href="#contact">Contact</a>
+    <a class="btn btn-sm" data-resume href="#">Resume</a>
+  </nav>
+</header>
+
+<main id="main">
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="status"><span class="dot"></span>Aspiring AI/ML Engineer</p>
+      <h1>Ankit <span class="grad">Singh</span></h1>
+      <p class="headline">I turn ideas into intelligent applications.</p>
+      <p class="lead">A computer science student exploring AI/ML, computer vision and software engineering by building real projects.</p>
+      <div class="cta">
+        <a class="btn" href="#projects">Explore My Projects</a>
+        <a class="btn btn-ghost" data-resume href="#">Download Resume</a>
+      </div>
+      <div class="socials">
+        <a data-link="github" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+        <a data-link="linkedin" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+        <a data-link="leetcode" target="_blank" rel="noopener" aria-label="LeetCode">LeetCode</a>
+      </div>
+      <p class="resume-msg" data-resume-msg role="status"></p>
+    </div>
+    <div class="hero-art"><canvas id="net" aria-hidden="true"></canvas></div>
+  </div>
+  <a class="scroll" href="#about" aria-label="Scroll to About"><span></span></a>
+</section>
+
+<section class="sec" id="about"><div class="wrap">
+  <p class="eyebrow">01 / About</p><h2>Learning by building.</h2>
+  <div class="about-grid">
+    <div class="prose reveal">
+      <p>I'm a computer science student fascinated by how intelligent systems work. From training machine learning models to building APIs that connect them with real applications, I enjoy learning by building things that actually work.</p>
+      <p>I'm currently strengthening my foundations in Data Structures and Algorithms while exploring machine learning, computer vision, and backend development. Every project is another opportunity to understand a concept more deeply and turn it into something useful.</p>
+      <p class="muted">B.Tech CSE, Keshav Memorial College of Engineering (2026–2030) · Hyderabad, India</p>
+    </div>
+    <ul class="cards3">
+      <li class="glass reveal"><b>AI/ML &amp; Computer Vision</b><span>CNNs and image classification with TensorFlow/Keras.</span></li>
+      <li class="glass reveal"><b>Backend APIs &amp; Integration</b><span>Serving models through FastAPI with SQLite storage.</span></li>
+      <li class="glass reveal"><b>Data Structures &amp; Algorithms</b><span>Regular problem solving to sharpen fundamentals.</span></li>
+    </ul>
+  </div>
+</div></section>
+
+<section class="sec" id="projects"><div class="wrap">
+  <p class="eyebrow">02 / Projects</p><h2>Things I've built.</h2>
+  <div class="projects" id="projectGrid"></div>
+</div></section>
+
+<section class="sec" id="skills"><div class="wrap">
+  <p class="eyebrow">03 / Skills</p><h2>What I work with.</h2>
+  <div class="skills">
+    <div class="glass reveal"><h3>Programming</h3><div class="chips"><span>Python</span><span>C <em>learning, college coursework</em></span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>SQL</span></div></div>
+    <div class="glass reveal"><h3>Machine Learning &amp; Data</h3><div class="chips"><span>NumPy</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span><span>Scikit-learn</span><span>TensorFlow</span><span>Keras</span><span>CNNs &amp; image classification</span></div></div>
+    <div class="glass reveal"><h3>Backend &amp; Tools</h3><div class="chips"><span>FastAPI</span><span>REST APIs</span><span>SQLite</span><span>Git &amp; GitHub</span><span>Streamlit</span></div></div>
+  </div>
+</div></section>
+
+<section class="sec" id="dsa"><div class="wrap">
+  <p class="eyebrow">04 / Problem Solving</p><h2>Practicing DSA, consistently.</h2>
+  <div class="dsa glass reveal">
+    <div class="count"><strong id="solved">350+</strong><span>LeetCode problems solved</span></div>
+    <div>
+      <p class="muted">Topics I'm studying and revising:</p>
+      <div class="chips"><span>Arrays</span><span>Linked Lists</span><span>Trees</span><span>Graphs</span><span>Recursion</span><span>Backtracking</span><span>Dynamic Programming</span></div>
+      <a class="btn btn-ghost" data-link="leetcode" target="_blank" rel="noopener">View LeetCode Profile</a>
+    </div>
+  </div>
+</div></section>
+
+<section class="sec contact" id="contact"><div class="wrap">
+  <p class="eyebrow">05 / Contact</p><h2>Have an interesting problem? Let's connect.</h2>
+  <div class="cta">
+    <a class="btn" id="mailBtn" href="#">Email me</a>
+    <button class="btn btn-ghost" id="copyBtn" type="button">Copy email</button>
+    <a class="btn btn-ghost" data-resume href="#">Download Resume</a>
+  </div>
+  <p class="toast" id="toast" role="status"></p>
+  <p class="resume-msg" data-resume-msg role="status"></p>
+  <div class="socials">
+    <a data-link="github" target="_blank" rel="noopener">GitHub</a>
+    <a data-link="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+    <a data-link="leetcode" target="_blank" rel="noopener">LeetCode</a>
+    <a data-view-resume target="_blank" rel="noopener">View Resume</a>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">© <span id="year"></span> Ankit Singh · Built with HTML, CSS and vanilla JavaScript</div></footer>
+<a class="top" id="toTop" href="#top" aria-label="Back to top">↑</a>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
